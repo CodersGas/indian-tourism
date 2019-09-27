@@ -73,11 +73,6 @@ main .visit{
     font-size: 13px;
 }
 
-main .visit:hover{
-    color: white;
-    background-color: black;
-}
-
 .south{
     background-image: url("./opening-page-pictures/south.jpg");
     background-repeat: no-repeat;
