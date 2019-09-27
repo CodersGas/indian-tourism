@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./north-india-pictures/north-india.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.heading{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 350px);
+    grid-gap: 20px;
+    margin-top: 44px;
+    grid-auto-rows: 500px;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+    grid-auto-rows: 500px;
+    grid-auto-flow: row;
+}
+
+.delhi{
+    background-image: url("./north-india-pictures/delhi.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    text-align: center;
+}
+
+.delhi h2{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.delhi p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 150px;
+}
+
+.punjab{
+    background-image: url("./north-india-pictures/punjab.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    text-align: center;
+}
+
+.punjab h2{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.punjab p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 150px;
+}
+
+.chandigarh{
+    background-image: url("./north-india-pictures/chandigarh.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    text-align: center;
+}
+
+.chandigarh h2{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.chandigarh p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 150px;
+}
+
+.uttar-pradesh{
+    background-image: url("./north-india-pictures/uttar-pradesh.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    text-align: center;
+}
+
+.uttar-pradesh h2{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.uttar-pradesh p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 150px;
+}
+
+.uttarakhand{
+    background-image: url("./north-india-pictures/uttarakhand.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    text-align: center;
+}
+
+.uttarakhand h2{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.uttarakhand p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 150px;
+}
+
+.himachal-pradesh{
+    background-image: url("./north-india-pictures/himachal-pradesh.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    text-align: center;
+}
+
+.himachal-pradesh h2{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.himachal-pradesh p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 100px;
+}
+
+.jammu-kashmir{
+    background-image: url("./north-india-pictures/jammu-kashmir.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    text-align: center;
+}
+
+.jammu-kashmir h2{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.jammu-kashmir p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 1);
+    margin-top: 150px;
+}

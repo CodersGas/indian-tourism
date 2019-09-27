@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url("./pictures/page-background.jpg");
+    background-image: url("./opening-page-pictures/page-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,9 +17,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     color: rgba(0, 0, 0, 0.9);
-    background-color: rgba(0, 255, 0, 0.1);
     position: relative;
-    z-index: 5;
 }
 
 main{
@@ -43,7 +41,7 @@ img{
 }
 
 .north{
-    background-image: url("./pictures/north.jpg");
+    background-image: url("./opening-page-pictures/north.jpg");
     background-repeat: no-repeat;
     background-size: 350px 350px;
     text-align: center;
@@ -81,7 +79,7 @@ main .visit:hover{
 }
 
 .south{
-    background-image: url("./pictures/south.jpg");
+    background-image: url("./opening-page-pictures/south.jpg");
     background-repeat: no-repeat;
     background-size: 350px 350px;
     text-align: center;
@@ -104,7 +102,7 @@ main .visit:hover{
 }
 
 .east{
-    background-image: url("./pictures/east.jpg");
+    background-image: url("./opening-page-pictures/east.jpg");
     background-repeat: no-repeat;
     background-size: 350px 350px;
     text-align: center;
@@ -127,7 +125,7 @@ main .visit:hover{
 }
 
 .west{
-    background-image: url("./pictures/west.jpg");
+    background-image: url("./opening-page-pictures/west.jpg");
     background-repeat: no-repeat;
     background-size: 350px 350px;
     text-align: center;
